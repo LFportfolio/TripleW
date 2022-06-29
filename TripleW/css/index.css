@@ -1,0 +1,202 @@
+/*///////////// CONFIGURACIONES GLOBALES /////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*////////////////////////////////////////////////////////*/
+
+
+/*/////////////// HEADER NAV /////////////////////////////*/
+.containerlogo{
+    margin: 10px;
+}
+.containerlogo .logowww{
+    width: 50px;
+    margin-left: 30px;
+}
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+nav{
+    width: 100%;
+    text-align: right;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////// CONT BIENVENIDA //////////////////*/
+.sep1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0;
+}
+.sep1 img{
+    width: 60%;
+    height: 5px;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin: 5px 100px;
+}
+
+.containermain{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    , url(/img/mainfoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+main h1{
+    font-size: 70px;
+    margin: 0 30px;
+}
+main p{
+    margin-top: 10px;
+    font-size: 35px;
+}
+/*//////////////////////////////////////////////////*/
+
+
+
+
+/*///////////////// CONT HERRAMIENTAS //////////////////*/
+.sep2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px 0;
+}
+.sep2 img{
+    width: 60%;
+    height: 5px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteinertext h1{
+    font-size: 65px;
+}
+.conteinertext p{
+    font-size: 35px;
+    text-align-last: center;
+    margin-top: 20px;
+}
+.herramientas{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.herramientas img{
+    width: 150px;
+}
+.conteinercalidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin: 0 50px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    width: 20vw;
+    height: 60vh;
+    font-family: 'Teko', sans-serif;
+}
+.conteinercalidad ul{
+    margin: 10px 30px;
+    list-style: none;
+    margin-top: 40px;
+}
+.conteinersoporte ul{
+    margin: 10px 30px;
+    list-style: none;
+    margin-top: 33px;
+}
+.conteinerdiseño ul{
+    margin: 10px 30px;
+    list-style: none;
+    margin-top: 40px;
+}
+.conteinercalidad h1{
+    margin: 10px 20px;
+}
+.conteinersoporte h1{
+    margin: 10px 20px;
+}
+.conteinerdiseño h1{
+    margin: 10px 20px;
+}
+.conteinersoporte .fotosoporte{
+    margin-top: 7px;
+}
+.listacalidad .tilde{
+    width: 20px;
+    margin: 0px 6px;
+}
+.conteinersoporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin: 0 50px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    width: 20vw;
+    height: 60vh;
+    font-family: 'Teko', sans-serif;
+}
+
+.conteinerdiseño{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin: 0 50px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    width: 20vw;
+    height: 60vh;
+    font-family: 'Teko', sans-serif;
+}
+/*/////////////////////////////////////////////////*/
+
+
